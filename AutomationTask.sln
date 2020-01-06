@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TidalInfra", "TidalInfra.csproj", "{229A7FA3-38AD-4864-9689-7B0C0A09EA98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TidalTests", "..\TidalTests\TidalTests.csproj", "{CCEE9D4F-F1C3-4355-849D-4B8691C8B2CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TidalTests", "TidalTests\TidalTests.csproj", "{CCEE9D4F-F1C3-4355-849D-4B8691C8B2CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
