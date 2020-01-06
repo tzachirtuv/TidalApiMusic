@@ -22,10 +22,10 @@ namespace TidalInfra.DTO
         public string LastUpdated { get; set; }
 
 
-        private static PlaylistTypeDTO ConvertToDTO(PlaylistType playlistType)
+/*        private static PlaylistTypeDTO ConvertToDTO(PlaylistType playlistType)
         {
-            PlaylistTypeDTO res = playlistType.
-        }
+          //  PlaylistTypeDTO res = playlistType.
+        }*/
 
         public static async Task<PlaylistDto> ConvertToDTO(Task<PlaylistModel> playlistModel)
         {
@@ -34,11 +34,11 @@ namespace TidalInfra.DTO
             {
                 Created = modle.Created,
                 Description = modle.Description,
-                Type = modle.Type,
+/*                Type = modle.Type,
                 Duration = modle.Duration,
                 Id = modle.Id,
                 Image = modle.Image,
-                LastUpdated = modle.LastUpdated,
+                LastUpdated = modle.LastUpdated,*/
                 NumberOfTracks = modle.NumberOfTracks,
                 OfflineDateAdded = modle.OfflineDateAdded,
                 PublicPlayList = modle.PublicPlaylist,
